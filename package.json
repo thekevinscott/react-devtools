@@ -43,7 +43,6 @@
     "build:standalone": "cd packages/react-devtools-core && npm run build",
     "deploy": "cd ./shells/theme-preview && ./build.sh && gh-pages -d .",
     "lint": "eslint .",
-    "postinstall": "lerna bootstrap",
     "test": "node --harmony ./node_modules/.bin/jest",
     "test:chrome": "node ./shells/chrome/test",
     "test:firefox": "node ./shells/firefox/test",
